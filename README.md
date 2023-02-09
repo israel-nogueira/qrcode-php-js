@@ -1,5 +1,5 @@
 
-# **QRCODE Requirer**
+# **QRCODE em PHP & JS**
 Classe simples para criação de QRCodes;
 Essa classe utiliza a LIB [QRServer](https://api.qrserver.com/) para gerar de forma fácil e rápida seus QRcodes;
 
