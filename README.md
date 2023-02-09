@@ -6,8 +6,8 @@ Essa classe utiliza a LIB [QRServer](https://api.qrserver.com/) para gerar de fo
 Exemplo:
 ```php		
 <?
-include('./qrcode-requirer.php');
-$_QRCODE =qrcode::data('Lorim Ipsum dolor amet...') // texto
+	include('./qrcode-requirer.php');
+	$_QRCODE =		qrcode::data('Lorim Ipsum dolor amet...') // texto
 					->ecc('H') // O nível de correção de erros: L, M, Q e H, onde H é o nível mais alto.
 					->qzone(0) // O espaço entre os quadrados no QR code
 					->margin(10) //A margem a ser adicionada em torno do QR code
